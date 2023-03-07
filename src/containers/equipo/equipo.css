@@ -1,0 +1,84 @@
+.stpy__equipo-main {
+    padding: 4rem ;
+}
+
+.stpy__equipo {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 4rem 4rem;
+    border: 1px  #fff;
+    border-radius: 14px;
+    /*background: var(--color-footer);*/
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.stpy__equipo-feature {
+    display: flex;
+}
+
+.stpy__equipo-feature .gpt3__features-container__feature {
+    margin: 0;
+}
+
+.stpy__equipo-cabecera {
+    display: flex;
+    font-family: Manrope;
+    font-size: 14px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 4rem;
+}
+
+.stpy__equipo-cabecera h1 {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    max-width: 510px;
+}
+
+.stpy__equipo-cabecera p {
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FF8A71;
+    cursor: pointer;
+}
+
+.stpy__equipo-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.stpy__equipo-contenedor .gpt3__features-container__feature {
+    flex: 1;
+    flex-direction: column;
+    margin: 0 3rem;
+    min-width: 210px;
+    display: unset;
+}
+
+.stpy__equipo-contenedor .gpt3__features-container_feature-text {
+    margin-top: 0.5rem;
+}

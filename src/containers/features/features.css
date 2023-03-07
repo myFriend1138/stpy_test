@@ -1,0 +1,15 @@
+.stpy__features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.stpy__features-cabecera{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: Manrope;
+}

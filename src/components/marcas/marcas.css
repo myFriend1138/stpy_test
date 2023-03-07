@@ -1,0 +1,39 @@
+.stpy__marcas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stpy__marcas-cabecera {
+    font-family: Manrope;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 3rem;
+}
+
+.stpy__marcas-marcas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stpy__marcas-marcas div {
+    display: flex;
+    margin: 1rem;
+}
+
+.stpy__marcas-marcas div img {
+    width: 150px;
+}
+
+.stpy__marcas-marcas div h1 {
+    font-family: Manrope;
+    color: #c4c3c3;
+    font-size: 38px;
+    line-height: 67px;
+}

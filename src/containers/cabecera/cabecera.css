@@ -1,0 +1,106 @@
+.stpy__cabecera {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.stpy__cabecera-contenido {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right:5rem;
+    padding-bottom:1rem;
+}
+
+.stpy__cabecera-contenido h1 {
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 81px;
+    letter-spacing: -0.04em;
+}
+
+.stpy__cabecera-contenido p {
+    font-family: Manrope;
+    font-size: 20px;
+    line-height: 27px;
+    color: #81AFDD;
+    margin-top: 1.5rem;
+}
+
+.stpy__cabecera-contenido__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.stpy__cabecera-contenido__input input {
+    flex: 2;
+    width: 100%;
+    font-family: Manrope;
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0 1rem;
+    outline: none;
+    color: #cfcece;
+    background: #031B34;
+    border: 2px solid #031B34;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.stpy__cabecera-contenido__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: Manrope;
+    font-family: Manrope;
+    font-weight: bold;
+    font-size: 20px;
+    background: #FF4820;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 27px;
+    color: #FFFFFF;
+    outline: none;
+    padding: 0 1rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.stpy__cabecera-contenido__people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.stpy__cabecera-contenido__people img {
+    width: 181.79px;
+    height: 38px;
+    margin-left: 1px;
+}
+
+.stpy__cabecera-contenido__people p {
+    margin: 0 0 0 1rem;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.stpy__cabecera-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stpy__cabecera-image img {
+    width: 100%;
+    height: 100%;
+}

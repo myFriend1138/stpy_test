@@ -1,0 +1,33 @@
+.stpy__clientes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stpy__clientes-cabecera {
+    font-family: Manrope;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 4rem;
+}
+
+.stpy__clientes-clientes {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stpy__clientes-clientes div {
+    display: flex;
+    margin: 1rem;
+}
+
+.stpy__clientes-clientes div img {
+    width: 300px;
+}
